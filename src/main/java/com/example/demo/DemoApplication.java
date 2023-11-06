@@ -12,6 +12,9 @@ public class DemoApplication {
 		ConfigurableApplicationContext ct= SpringApplication.run(DemoApplication.class, args);
 		System.out.print("Its is working  >>>>>>>>>>");
 		
+		
+		
+		
 		Alien a= ct.getBean(Alien.class);
 		a.show();
 	}
